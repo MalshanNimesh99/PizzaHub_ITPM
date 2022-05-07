@@ -200,7 +200,6 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
   text-decoration: none;
   display: block;
 }
-
 .dropdown:hover .dropdown-content {display: block;}
 </style>
 
@@ -254,7 +253,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
 
 
 
-<!-- The ModalModalModalModalModalModal -->
+<!-- The Modal -->
 <div id="myModal" class="modal">
   <!-- Modal content -->
   <div class="modal-content">
