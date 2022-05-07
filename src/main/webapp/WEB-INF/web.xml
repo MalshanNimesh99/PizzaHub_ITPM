@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>PizzaHub</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+
+<!-- Payment -->
+  <servlet>
+    <description></description>
+    <display-name>UpdatePaymentServlet</display-name>
+    <servlet-name>UpdatePaymentServlet</servlet-name>
+    <servlet-class>payment_management.UpdatePaymentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdatePaymentServlet</servlet-name>
+    <url-pattern>/UpdatePaymentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeletePaymentServlet</display-name>
+    <servlet-name>DeletePaymentServlet</servlet-name>
+    <servlet-class>payment_management.DeletePaymentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeletePaymentServlet</servlet-name>
+    <url-pattern>/DeletePaymentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SearchPaymentServlte</display-name>
+    <servlet-name>SearchPaymentServlte</servlet-name>
+    <servlet-class>payment_management.SearchPaymentServlte</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchPaymentServlte</servlet-name>
+    <url-pattern>/SearchPaymentServlte</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddPaymentServlet</display-name>
+    <servlet-name>AddPaymentServlet</servlet-name>
+    <servlet-class>payment_management.AddPaymentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddPaymentServlet</servlet-name>
+    <url-pattern>/AddPaymentServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
