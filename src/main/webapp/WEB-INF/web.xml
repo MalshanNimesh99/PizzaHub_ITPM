@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+<<<<<<< HEAD
   <display-name>Delivery_Management</display-name>
+=======
+<<<<<<< HEAD
+  <servlet>
+    <description></description>
+    <display-name>InsertOrderServlet</display-name>
+    <servlet-name>InsertOrderServlet</servlet-name>
+    <servlet-class>Order_Management.InsertOrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertOrderServlet</servlet-name>
+    <url-pattern>/InsertOrderServlet</url-pattern>
+  </servlet-mapping>
+  <display-name>Order_Management_Sys</display-name>
+=======
+  <display-name>PizzaHub</display-name>
+>>>>>>> 207bae7e19d28d1a4e5bf2037c0bbb131dcfc133
+>>>>>>> 668485e8420c72fb952d8f85bb520a366d44cba5
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>
@@ -9,4 +27,103 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  <servlet>
+    <description></description>
+    <display-name>Showservlet</display-name>
+    <servlet-name>Showservlet</servlet-name>
+    <servlet-class>Order_Management.Showservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Showservlet</servlet-name>
+    <url-pattern>/Showservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateOrderServlet</display-name>
+    <servlet-name>UpdateOrderServlet</servlet-name>
+    <servlet-class>Order_Management.UpdateOrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateOrderServlet</servlet-name>
+    <url-pattern>/UpdateOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleteOrderServlet</display-name>
+    <servlet-name>DeleteOrderServlet</servlet-name>
+    <servlet-class>Order_Management.DeleteOrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteOrderServlet</servlet-name>
+    <url-pattern>/DeleteOrderServlet</url-pattern>
+=======
+
+
+  <!-- Item management -->
+  <servlet>
+    <description></description>
+    <display-name>AddItemServlet</display-name>
+    <servlet-name>AddItemServlet</servlet-name>
+    <servlet-class>item_management.AddItemServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddItemServlet</servlet-name>
+    <url-pattern>/AddItemServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateFlnServlet</display-name>
+    <servlet-name>UpdateFlnServlet</servlet-name>
+    <servlet-class>item_management.UpdateFlnServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateFlnServlet</servlet-name>
+    <url-pattern>/UpdateFlnServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleteFlnServlet</display-name>
+    <servlet-name>DeleteFlnServlet</servlet-name>
+    <servlet-class>item_management.DeleteFlnServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteFlnServlet</servlet-name>
+    <url-pattern>/DeleteFlnServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AdminLoginServlet</display-name>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>item_management.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SearchItemCodeServlet</display-name>
+    <servlet-name>SearchItemCodeServlet</servlet-name>
+    <servlet-class>item_management.SearchItemCodeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchItemCodeServlet</servlet-name>
+    <url-pattern>/SearchItemCodeServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>SearchItemCatServlet</display-name>
+    <servlet-name>SearchItemCatServlet</servlet-name>
+    <servlet-class>item_management.SearchItemCatServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchItemCatServlet</servlet-name>
+    <url-pattern>/SearchItemCatServlet</url-pattern>
+>>>>>>> 207bae7e19d28d1a4e5bf2037c0bbb131dcfc133
+  </servlet-mapping>
+>>>>>>> 668485e8420c72fb952d8f85bb520a366d44cba5
 </web-app>
